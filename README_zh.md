@@ -27,7 +27,7 @@ php-nohup
 **你看,非常简单!**
 
 ```php
-use cszchen\nohup\Nohup;
+use dgr\nohup\Nohup;
 
 $process = Nohup::run('sleep 5');
 ```
@@ -45,7 +45,7 @@ $process->stop();
 
 也可以通过此方法查看进程的实时状态 `$process->isRunning()`:
 ```php
-use cszchen\nohup\Nohup;
+use dgr\nohup\Nohup;
 
 $process = Nohup::run('sleep 5');
 while ($process->isRunning()) {
@@ -62,7 +62,7 @@ echo "Done.\n";
 #### 通过一直的 pid（$pid） 来创建一个 process 对象
 
 ```php
-use cszchen\nohup\Process;
+use dgr\nohup\Process;
 
 $process = Process::loadFromPid($pid);  
 //or
