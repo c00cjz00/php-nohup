@@ -17,7 +17,7 @@ php-nohup
 
 可以通过 composer 来安装
 
-`compoer require dgr/nohup`
+`composer require dgr/nohup`
 
 如何使用
 ---
