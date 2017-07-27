@@ -18,7 +18,7 @@ Installation
 
 Install via composer:  
 
-`compoer require dgr/nohup`
+`composer require dgr/nohup`
 
 Usage
 ---
