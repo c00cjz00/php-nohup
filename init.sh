@@ -1,4 +1,8 @@
-t cloen ...
+rm *~
+rm */*~
+rm */*/*~
+rm  */*/*/*~
+#git cloen ...
 #cd r1
 #echo 1 > README.md
 git config --global user.name "c00cjz00"
@@ -21,4 +25,3 @@ git push origin master
 # git commit -m "Remove duplicated directory"
 ## Push the change to your remote repository:
 # git push origin master
-
